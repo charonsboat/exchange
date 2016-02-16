@@ -23,5 +23,10 @@
             "tests/",
             "database/"
         ]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "php -r \"if (!file_exists('./.env')) { copy('./.env.example', './.env'); }\""
+        ]
     }
 }
