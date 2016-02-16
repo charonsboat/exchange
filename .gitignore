@@ -1,0 +1,6 @@
+# Vagrant
+/.vagrant
+
+# Lumen
+/vendor
+/.env
